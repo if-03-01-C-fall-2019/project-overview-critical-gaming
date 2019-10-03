@@ -1,0 +1,6 @@
+article > h1 {text-align: center}
+article h1 {color:red}
+article section section{
+    text-align: left;
+    color:gray;
+}
