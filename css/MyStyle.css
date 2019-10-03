@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'FatPixelArtFont';
+    font-family: 'FatPixel';
     src: url("fonts/uni0563/uni0563-webfont.eot"); /* IE9 Compat Modes */
     src: url("fonts/uni0563/uni0563-webfont.woff") format("woff"); /* Modern Browsers */
     src: url("fonts/uni0563/uni0563-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
@@ -7,20 +7,24 @@
 }
 
 @font-face{
-    font-family: 'PixelArtFont_Munro';
+    font-family: 'Pixel';
     src:url("fonts/munro/munro.ttf") format("truetype"),
     url("fonts/munro/munro-small.ttf")format("truetype"),
     url("fonts/munro/munro-narrow.ttf")format("truetype");
 }
 h1{
     text-align: center;
-    font-family: "PixelArtFont_Munro";
+    font-family: "Pixel";
     font-weight: normal;
     font-style: normal;
-    font-size: 3em
+    font-size: 3em;
+    margin-bottom: 0%;
 }
 h2{
-    font-size: 1em
+    margin-top: 0%;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Pixel";
 }
 article section section{
     text-align: left;
