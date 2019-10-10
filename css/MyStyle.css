@@ -17,7 +17,7 @@ h1{
     font-family: "Pixel";
     font-weight: normal;
     font-style: normal;
-    font-size: 5em;
+    font-size: 8em;
     margin-bottom: 0%;
 }
 h2{
@@ -26,7 +26,10 @@ h2{
     text-align: center;
     font-family: "Pixel";
 }
-article section section{
+section{
     text-align: left;
-    color:gray;
+    font-size: 1.5em;
+}
+section li{
+    font-size: 3em;
 }
