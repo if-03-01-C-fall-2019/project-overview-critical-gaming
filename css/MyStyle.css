@@ -12,6 +12,11 @@
     url("fonts/munro/munro-small.ttf")format("truetype"),
     url("fonts/munro/munro-narrow.ttf")format("truetype");
 }
+style{
+    background-image: url("WebsiteWallpaper.jpg");
+    background-position: 50%,50%;
+    background-repeat:repeat;
+}
 h1{
     text-align: center;
     font-family: "Pixel";
