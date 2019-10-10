@@ -12,12 +12,13 @@
     url("fonts/munro/munro-small.ttf")format("truetype"),
     url("fonts/munro/munro-narrow.ttf")format("truetype");
 }
+
 h1{
     text-align: center;
     font-family: "Pixel";
     font-weight: normal;
     font-style: normal;
-    font-size: 3em;
+    font-size: 5em;
     margin-bottom: 0%;
 }
 h2{
@@ -26,7 +27,11 @@ h2{
     text-align: center;
     font-family: "Pixel";
 }
-article section section{
-    text-align: left;
-    color:gray;
+section li{
+    text-align: center;
+    font-size: 2em;
+}
+section i{
+    text-align: center;
+    font-size: 1em;
 }
