@@ -29,9 +29,11 @@ h2{
 section{
     text-align: left;
     font-size: 1.5em;
+    font-family: "Pixel";
 }
 section li{
     font-size: 2.2em;
+    font-family: "FatPixel";
 }
 button {
     background-color: white; /* Green */
