@@ -1,5 +1,5 @@
 Future Plans
-We have planned that we utilize two accounts. You can choose between User and Developer.
+We want to utilize two accounts. You will be able to choose between user and developer.
 There will be different functions for each account.
 Disclamer for the teacher:   We know that you arent allowed to make buttons that redirect so we just made them useless.
 
