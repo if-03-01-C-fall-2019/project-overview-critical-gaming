@@ -29,28 +29,70 @@ h1{
 }
 h2{
     margin-top: 0%;
-    font-size: 1.2em;
+    margin-bottom: 0%;
+    margin-left: 0.1%;
+    font-size: 2.2em;
+    text-align: left;
+    font-family: "Pixel";
+}
+h3 {
+    margin: 0%;
+    font-size: 1.3em;
     text-align: center;
     font-family: "Pixel";
 }
-section{
+/*#region Section*/
+section h1{
     text-align: left;
-    font-size: 1.5em;
     font-family: "Pixel";
+    font-size: 3em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+section h2{
+    margin-left: 1.8%;
 }
 section li{
-    font-size: 2.2em;
-    font-family: "FatPixel";
+    margin-top: 0.2%;
+    margin-bottom: 0.8%;;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: "Pixel";
 }
-button {
-    background-color: white; /* Green */
-    color: black;
-    padding: 14px 10%;
+/*#endregion*/
+
+/*#region Navbar*/
+ .navbar {
+    background-color: #202020;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
     text-align: center;
+    font-family: "FatPixel";
+    font-weight: normal;
+    font-style: normal;
+    padding: 13px 17px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-button:hover{
-    background-color: grey;
-}
+    font-size: 23px;
+  }
+  .navbar a:hover {
+    background-color: #B0B0B0;
+    color: black;
+  }
+  
+
+  @media screen and (max-width: 25em) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .navbar a.active {
+    background-color: #B0B0B0;
+    color: black;
+  }
+/*#endregion*/
