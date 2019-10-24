@@ -14,6 +14,7 @@
 }
 body{
   margin: 0px;
+  font-family: "Pixel";
 }
 .backround{
     background-image: url("pictures/Wallpaper_1.jpg");
@@ -23,7 +24,6 @@ body{
 }
 h1{
     text-align: center;
-    font-family: "Pixel";
     font-weight: normal;
     font-style: normal;
     font-size: 8em;
@@ -36,18 +36,15 @@ h2{
     margin-left: 0%;
     font-size: 2.2em;
     text-align: left;
-    font-family: "Pixel";
 }
 h3 {
     margin: 0%;
     font-size: 1.3em;
     text-align: center;
-    font-family: "Pixel";
 }
 /*#region Section*/
 section h1{
     text-align: left;
-    font-family: "Pixel";
     font-size: 3em;
     margin-top: 0%;
     margin-bottom: 0.05em;
@@ -62,7 +59,6 @@ section li{
     margin-left: 3%;
     text-align: left;
     font-size: 1.2em;
-    font-family: "Pixel";
 }
 /*#endregion*/
 
