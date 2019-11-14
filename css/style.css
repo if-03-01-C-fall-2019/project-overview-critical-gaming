@@ -15,17 +15,20 @@
 
 body{
   margin: 0px;
-  font-family: "Pixel";
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: white;
   background-color: #252525;
 }
 
-.backround{
+.background{
     background-image: url("pictures/WebsiteWallpaper.jpg");
     background-position: 50%,50%;
     background-attachment:fixed;
 }
-
+h1,h2,h3{
+  font-family: "Pixel";
+}
 h1{
     text-align: center;
     font-weight: normal;
