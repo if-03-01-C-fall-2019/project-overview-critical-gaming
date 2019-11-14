@@ -12,15 +12,20 @@
     url("fonts/munro/munro-small.ttf")format("truetype"),
     url("fonts/munro/munro-narrow.ttf")format("truetype");
 }
+
 body{
   margin: 0px;
   font-family: "Pixel";
+  color: white;
+  background-color: #252525;
 }
+
 .backround{
-    background-image: url("pictures/Wallpaper_1.jpg");
+    background-image: url("pictures/WebsiteWallpaper.jpg");
     background-position: 50%,50%;
-    background-repeat:repeat;
+    background-attachment:fixed;
 }
+
 h1{
     text-align: center;
     font-weight: normal;
@@ -61,12 +66,12 @@ section li{
 }
 /*#endregion*/
 
-/*#region Navbar*/ 
+/*#region Navbar*/
  .navbar {
     background-color: #202020;
     overflow: auto;
   }
-  
+
   .navbar a {
     float: left;
     color: white;
@@ -74,7 +79,7 @@ section li{
     font-family: "FatPixel";
     font-weight: normal;
     font-style: normal;
-    padding: 13px 17px;
+    padding: 13px 16px;
     text-decoration: none;
     font-size: 23px;
   }
@@ -82,7 +87,7 @@ section li{
     background-color: #B0B0B0;
     color: black;
   }
-  
+
 
   @media screen and (max-width: 25em) {
     .navbar a {
